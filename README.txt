@@ -45,4 +45,4 @@ assesment_1	-	codes	-	index.html
 ## Resources
 
 images	-	Google Maps
-		-	Google Street View
+	-	Google Street View
