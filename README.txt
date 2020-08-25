@@ -41,3 +41,8 @@ assesment_1	-	codes	-	index.html
 						-	BACKUP
 			-	res 	-	main.css
 			-	README.txt
+
+## Resources
+
+images	-	Google Maps
+		-	Google Street View
