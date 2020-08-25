@@ -18,7 +18,7 @@ body
 	height: auto;
 	border-radius: 8px;
 }
-a
+#nav
 {
 	background-color: #8a2bf0;
 	color: white;
@@ -41,16 +41,35 @@ a
 }
 #name
 {
+	background-color: powderblue;
 	color: #696969;
+	padding: 14px 25px;
 	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 	font-size: 60px;
+	font-family: sans-serif;
+	border-radius: 8px;
+}
+#name1
+{
+	color: #4b0082;
+	text-align: center;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+#name2
+{
+	color: #4b0082;
+	text-align: center;
+	font-size: 25px;
 	font-family: sans-serif;
 }
 #para
 {
 	background-color: #696969;
 	color: white;
-	padding: 14px 25px;
+	padding: 7px 12px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
