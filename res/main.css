@@ -1,0 +1,60 @@
+body
+{
+	background-image: url("../res/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: powderblue;
+}
+#heading
+{
+	color: #8a2bff;
+	text-align: center;
+	font-size: 100px;
+	font-family: sans-serif;
+}
+#img1
+{
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+a
+{
+	background-color: #8a2bf0;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 8px;
+}
+#fotter
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#name
+{
+	color: #696969;
+	text-align: center;
+	font-size: 60px;
+	font-family: sans-serif;
+}
+#para
+{
+	background-color: #696969;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	font-family: times;
+	border-radius: 8px;
+}
