@@ -5,6 +5,7 @@ body
 	background-size: cover;
 	background-color: powderblue;
 }
+
 #heading
 {
 	color: #8a2bff;
@@ -12,12 +13,14 @@ body
 	font-size: 100px;
 	font-family: sans-serif;
 }
+
 #img1
 {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
 }
+
 #nav
 {
 	background-color: #8a2bf0;
@@ -28,6 +31,18 @@ body
 	display: inline-block;
 	border-radius: 8px;
 }
+
+#backnav
+{
+	background-color: grey;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 8px;
+}
+
 #fotter
 {
 	position: fixed;
@@ -39,6 +54,7 @@ body
 	font-size: 20px;
 	font-family: sans-serif;
 }
+
 #name
 {
 	background-color: powderblue;
@@ -51,6 +67,7 @@ body
 	font-family: sans-serif;
 	border-radius: 8px;
 }
+
 #name1
 {
 	color: #4b0082;
@@ -58,6 +75,7 @@ body
 	font-size: 35px;
 	font-family: sans-serif;
 }
+
 #name2
 {
 	color: #4b0082;
@@ -65,6 +83,7 @@ body
 	font-size: 25px;
 	font-family: sans-serif;
 }
+
 #para
 {
 	background-color: #696969;
