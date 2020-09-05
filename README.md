@@ -44,5 +44,6 @@ assesment_1	-	codes	-	index.html
 
 ## Resources
 
-images	-	Google Maps
-	-	Google Street View
+- images
+ - [Google Maps](https://www.google.lk/maps)
+ - [Google Street View](https://www.google.com/streetview/)
