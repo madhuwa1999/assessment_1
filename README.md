@@ -22,8 +22,8 @@
 	e.	Beautiful places in your village (waterfalls/lakes/ paddy fields/etc..)
 	f.	How the village is governed (details about offices and authorities in the village)
 	g.	Other important places in the village (bank, post office, etc..)
-	10.	You must include real photographs for each detail (You are allowed to bring photographs after your midterm vacation )
-	11.	Upload the assessment_1 folder into the web server which will inform later.
+10.	You must include real photographs for each detail (You are allowed to bring photographs after your midterm vacation )
+11.	Upload the assessment_1 folder into the web server which will inform later.
 
 Deadline=20-09-2020 
 
