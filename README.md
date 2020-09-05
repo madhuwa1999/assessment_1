@@ -25,22 +25,24 @@
 10.	You must include real photographs for each detail (You are allowed to bring photographs after your midterm vacation )
 11.	Upload the assessment_1 folder into the web server which will inform later.
 
-Deadline=20-09-2020 
+`Deadline=20-09-2020`
 
 
 ## FILE_TREE
 
-assesment_1	-	codes	-	index.html
-				-	intro.html
-				-	relPlaces.html -- Details about religious places
-				-	schools.html -- Details about schools
-				-	specialAtr.html -- famous special attributes
-				-	beautifulPlaces.html
-				-	villageGov.html
-				-	importantPlaces.html
-				-	BACKUP
-		-	res 	-	main.css
-		-	README.txt
+- assesment_1codes
+  - index.html
+  - intro.html
+  - relPlaces.html `Details about religious places`
+  - schools.html `Details about schools`
+  - specialAtr.html `famous special attributes`
+  - beautifulPlaces.html
+  - villageGov.html
+  - importantPlaces.html
+  - BACKUP
+- res
+  - main.css
+  - README.txt
 
 ## Resources
 
