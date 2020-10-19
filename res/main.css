@@ -20,7 +20,10 @@ body
 	height: auto;
 	border-radius: 8px;
 }
-
+#imgMap
+{
+	border-radius: 8px;
+}
 #vid
 {
 	border-radius: 8px;
@@ -81,6 +84,13 @@ body
 	font-family: sans-serif;
 }
 
+#nameL
+{
+	color: #4b0082;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
 #name2
 {
 	color: #4b0082;
@@ -100,4 +110,39 @@ body
 	font-size: 25px;
 	font-family: times;
 	border-radius: 8px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]
+{
+  width: 100%;
+  background-color: #4b0082;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #696969;
+}
+
+#form
+{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-family: sans-serif;
 }
