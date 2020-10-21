@@ -40,6 +40,17 @@ body
 	border-radius: 8px;
 }
 
+#navL
+{
+	background-color: #DC143C;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 8px;
+}
+
 #backnav
 {
 	background-color: grey;

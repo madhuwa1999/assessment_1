@@ -1,5 +1,7 @@
 //var fname = document.getElementById("fname").value;
 //var lname = document.getElementById("lname").value;
+//var fs = require('fs');
+
 
 function validate()
 {
@@ -8,27 +10,24 @@ function validate()
 	var fname = document.getElementById("fname").value;
 	var lname = document.getElementById("lname").value;
 
-	var fs = require('fs');
-
-	fs.open("../res/data2.txt", 'w', function (err, file) {
-	  if (err) throw err;
-	  console.log('Saved!');
-	});
+	//var readMe = fs.readFileSync('../res/data.txt', 'utf8');
+	//alert(readMe);
 
 	if((fname == "" || fname == null) || (lname == "" || lname == null))
 	{
-		alert("Enter all the text fields");
+		alert("Enter all the text fields. Login Failed.");
 	}
 
 	else
 	{
 		if(fname.match(letters) && lname.match(letters))
 		{
+			alert("Welcome "+fname+" "+lname+". Login Successful.")
 			return true;
 		}
 		else
 		{
-			alert("You can enter charactors only.");
+			alert("You can enter charactors only. Login Failed.");
 			return false;
 		}
 	}
