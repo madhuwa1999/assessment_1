@@ -8,6 +8,13 @@ function validate()
 	var fname = document.getElementById("fname").value;
 	var lname = document.getElementById("lname").value;
 
+	var fs = require('fs');
+
+	fs.open("../res/data2.txt", 'w', function (err, file) {
+	  if (err) throw err;
+	  console.log('Saved!');
+	});
+
 	if((fname == "" || fname == null) || (lname == "" || lname == null))
 	{
 		alert("Enter all the text fields");
