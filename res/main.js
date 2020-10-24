@@ -2,7 +2,6 @@
 //var lname = document.getElementById("lname").value;
 //var fs = require('fs');
 
-
 function validate()
 {
 	//alert("hello");
@@ -23,7 +22,7 @@ function validate()
 		if(fname.match(letters) && lname.match(letters))
 		{
 			alert("Welcome "+fname+" "+lname+". Login Successful.");
-			window.open("../codes/index.html")
+			window.open("../codes/index.html");
 			return true;
 		}
 		else
