@@ -22,7 +22,8 @@ function validate()
 	{
 		if(fname.match(letters) && lname.match(letters))
 		{
-			alert("Welcome "+fname+" "+lname+". Login Successful.")
+			alert("Welcome "+fname+" "+lname+". Login Successful.");
+			window.open("../codes/index.html")
 			return true;
 		}
 		else
