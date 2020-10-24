@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Survey</title>
+		<link rel = "stylesheet" type = "text/css" href = "../res/main.css">
+		<script type="text/javascript" src="../res/main.js"></script>
+	</head>
+	<body>
+		<b><div id = "heading">MY VILLAGE</div></b>
+		<div align = "center"><h1 id = "name">BANDARAGAMA</h1></div>
+		<div id="nameL" align="center"><b>SURVEY</b></div>
+		<div align="center"><div id="para">Please fill this form and help to continue the survey.<br>_ _ _</div></div><br><br>
+		<!-- I TRIED HERE TO TAKE THE DATA AND SPRED THE DATA ACROSS THE WEB PAGE TO MAKE IT MORE
+		FAMILIAR BUT COULD NOT FIND A WAY TO SAVE THE DATA THAT I AM GETTING FROM THIS FORM WITHOUT
+		USING DATABASES -->
+		<div id="form">
+		  <form name="myForm" onsubmit="return validate()" method="post">
+		    First Name <br>
+		    <input type="text" id="fname" name="firstname" placeholder="Elon">
+
+		    Last Name <br>
+		    <input type="text" id="lname" name="lastname" placeholder="Musk">
+
+		    Province
+		    <select id="country" name="country">
+				<option value="australia">Northern</option>
+				<option value="canada">North Western</option>
+				<option value="Western">Western</option>
+				<option value="australia">North Central</option>
+				<option value="canada">Central</option>
+				<option value="Western">Sabaragamuwa</option>
+				<option value="australia">Eastern</option>
+				<option value="canada">Uva</option>
+				<option value="Western">Southern</option>
+			</select>
+
+		    Your Village <br>
+		    <input type="text" id="vname" name="villagename" placeholder="Bandaragama">
+		  
+		    <input type="submit" value="Submit">
+		  </form>
+		</div>
+	</body>
+</html>

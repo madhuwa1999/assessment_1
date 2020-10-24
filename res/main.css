@@ -42,7 +42,7 @@ body
 
 #navL
 {
-	background-color: #DC143C;
+	background-color: #228B22;
 	color: white;
 	padding: 14px 25px;
 	text-align: center;
@@ -97,8 +97,8 @@ body
 
 #nameL
 {
-	color: #4b0082;
-	font-size: 40px;
+	color: #7FFF00;
+	font-size: 60px;
 	font-family: sans-serif;
 }
 
